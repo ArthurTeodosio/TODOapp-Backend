@@ -1,19 +1,16 @@
 {
-    "name": "api",
-    "version": "1.0.0",
-    "description": "",
-    "main": "index.js", 
-    "engines": {
-        "node": "18.x"
-    },
-    "scripts": {
-      "test": "echo \"Error: no test specified\" && exit 1",
-      "start": "node index 'mongodb+srv://arthur224227:123@cluster0.j6q2qwm.mongodb.net/tarefasDB?retryWrites=true&w=majority'"
-    },
-    "author": "",
-    "license": "ISC",
-    "dependencies": {
-      "express": "^4.18.2",
-      "mongoose": "^7.0.3"
-    }
+  "name": "todoappapi",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "mongoose": "^7.0.2"
   }
+}
