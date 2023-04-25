@@ -8,8 +8,7 @@
     },
     "scripts": {
       "test": "echo \"Error: no test specified\" && exit 1",
-      "start": "node index 'mongodb+srv://arthur224227:123@cluster0.j6q2qwm.mongodb.net/tarefasDB?retryWrites=true&w=majority'",
-      "vercel-build": "npx prisma migrate deploy"
+      "start": "node index 'mongodb+srv://arthur224227:123@cluster0.j6q2qwm.mongodb.net/tarefasDB?retryWrites=true&w=majority'"
     },
     "author": "",
     "license": "ISC",
